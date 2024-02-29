@@ -1,0 +1,138 @@
+.payday__sail {
+    position: relative;
+    background-color: var(--yellow);
+   display: flex;
+   column-gap: 63px;
+   z-index: -2;
+}
+
+
+.payday__sail__image {
+
+    
+}
+.payday__sail__shop_now {
+    position: relative;
+    border-radius: 8px;
+    background-color:  #000000;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 26px 51px 38px 51px;
+    max-width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+.payday__sail__shop__link {
+    
+
+}
+
+.payday__sail__next__purchase {
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: -0.02em;
+text-align: left;
+margin-bottom: 40px;
+}
+.payday__sail__text_title {
+    font-family: Poppins;
+    font-size: 112px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /*
+    max-width: 306px;
+    white-space: wrap; 
+*/
+max-width: 616px;
+white-space: wrap;
+line-height: 137px; 
+letter-spacing: 0em;
+text-align: left;
+padding-right: 49px;
+}
+.payday__sail__sale__now {
+    display: flex;
+    white-space: nowrap;
+}
+.payday__sail__payday {
+   position: relative;
+   
+}
+.payday__sail__payday::before{
+    content: "";
+    display: block;
+    position: absolute;
+top: -12px;
+bottom: -12px;
+left: -23px;
+right: -50px; 
+background-color: #fff;
+transform: rotate(-2deg);
+z-index: -1;
+}
+
+.payday__sail__text_title {
+position: relative;
+}
+.payday__sail__date {
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-bottom: 10px;
+
+}
+.payday__sail__condition {
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.02em;
+text-align: left;
+margin-bottom: 51px;
+
+}
+.payday__sail__text__block {
+    max-width: 666px;
+    margin-top: 128px;
+ 
+}
+/*padding: 128px 200px 155px 62px;
+.payday__sail__next__purchase {
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 500;
+ width: 643px;
+background-color: red;
+
+} */
+/*
+letter-spacing: -0.02em;
+line-height: 52px;
+
+text-align: left;
+*/
+/*
+max-width: 480px;
+    font-family: Poppins;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+    */

@@ -1,0 +1,80 @@
+.join {
+    width: 100%;
+
+    position: relative;
+    background-color: var(--yellow);
+}
+.join__wrapper{
+    max-width: 1010px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.join__block__title {
+    margin-top: 141px;
+    font-family: Poppins;
+font-size: 55px;
+font-weight: 900;
+line-height: 70px;
+letter-spacing: 0.03em;
+text-align: center;
+color:  #FFFFFF;
+margin-bottom: 25px;
+
+}
+.join__block__about{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFCF8;
+    margin-bottom: 43px;
+
+}
+.join__block__button {
+    border-radius: 8px;
+    font-family: Poppins;
+font-size: 33px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0.03em;
+text-align: left;
+ color: #FFFFFF;
+padding: 17px 35px 15px 38px;
+background-color: #000000;
+position: relative;
+z-index: 124;
+
+margin-right: 10px;
+}
+.join__block__form {
+    position: relative;
+    max-width: 574px;
+    height: 87px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-bottom: 156px;
+}
+.join__block__input {
+height: 87px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0.03em;
+text-align: left;
+padding: 27px 0px 35px 27px;
+background-color: #FFFFFF;
+border-radius: 10px;
+width: 100%;
+height:100%;
+position:absolute;
+z-index: 0;
+}

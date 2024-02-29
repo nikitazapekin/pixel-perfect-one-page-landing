@@ -1,0 +1,60 @@
+.download__wrapper {
+    display: flex;
+   /* 
+   column-gap: 305px; 
+   */
+ justify-content: space-between;
+   width: 100%;
+   align-items: center;
+    position: relative;
+}
+.download {
+    position: relative;
+    margin-top: 220px;
+}
+.download__block {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  max-width: 537px;
+ 
+ 
+
+} 
+.download__block__title span {
+    flex: 1 1 50%; 
+    text-align: left; 
+}
+.download__block__title   {
+    display: flex;
+    flex-wrap: wrap;
+
+
+ 
+   font-family: Poppins;
+font-size: 48px;
+font-weight: 900;
+line-height: 72px;
+letter-spacing: 0.06em;
+text-align: left;
+color:  black;
+margin-bottom: 41px;
+}
+.download__block__about {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #7C7C7C;
+margin-bottom: 55px;
+ 
+
+}
+.download__block__images {
+    display: flex;
+    column-gap: 19px;
+  
+}
